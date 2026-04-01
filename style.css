@@ -181,3 +181,70 @@ a[target="_blank"]::after {
     font-size: 30px;
   }
 }
+.hero-banner {
+  width: 100%;
+  min-height: 460px;
+  border-radius: 22px;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 0.35)), url("banner.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.10);
+  margin-bottom: 36px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-overlay {
+  width: 100%;
+  padding: 42px 40px;
+  color: #ffffff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.08));
+}
+
+.hero-banner h1 {
+  color: #ffffff;
+  font-size: 40px;
+  max-width: 760px;
+  margin: 0 0 12px;
+  line-height: 1.25;
+}
+
+.hero-banner .hero-subtitle {
+  color: rgba(255, 255, 255, 0.92);
+  max-width: 760px;
+  font-size: 17px;
+}
+
+.hero-actions {
+  margin-top: 22px;
+}
+
+.hero-banner .button-link {
+  background: rgba(255, 250, 242, 0.92);
+  color: #6f5430;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.hero-banner .button-link:hover {
+  background: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    min-height: 320px;
+    border-radius: 16px;
+  }
+
+  .hero-overlay {
+    padding: 26px 22px;
+  }
+
+  .hero-banner h1 {
+    font-size: 28px;
+  }
+
+  .hero-banner .hero-subtitle {
+    font-size: 15px;
+  }
+}
