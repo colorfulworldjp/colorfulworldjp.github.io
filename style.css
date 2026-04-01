@@ -147,3 +147,11 @@ a[target="_blank"]::after {
   content: " ↗";
   font-size: 0.9em;
 }
+.brand-mark {
+  margin: 0 0 10px;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  color: #b08d57;
+  text-transform: uppercase;
+}
