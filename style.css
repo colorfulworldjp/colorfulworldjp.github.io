@@ -73,3 +73,41 @@ a:hover {
 .nav a {
   margin-right: 12px;
 }
+.hero {
+  padding: 28px 32px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin: 8px 0;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #444;
+}
+
+.button-link {
+  display: inline-block;
+  margin-top: 14px;
+  margin-right: 12px;
+  padding: 10px 16px;
+  border: 1px solid #1a4f8b;
+  border-radius: 8px;
+  color: #1a4f8b;
+  text-decoration: none;
+  font-weight: bold;
+  background: #fff;
+}
+
+.button-link:hover {
+  background: #f0f6ff;
+}
