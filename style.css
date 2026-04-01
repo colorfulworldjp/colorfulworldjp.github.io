@@ -64,14 +64,29 @@ a:hover {
   color: #111;
 }
 .nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
   margin-bottom: 30px;
-  padding-bottom: 15px;
+  padding: 14px 0 18px 0;
   border-bottom: 1px solid #ccc;
-  font-size: 15px;
 }
 
 .nav a {
-  margin-right: 12px;
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #bbb;
+  border-radius: 999px;
+  background: #fff;
+  color: #1a4f8b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.nav a:hover {
+  background: #f0f6ff;
+  border-color: #1a4f8b;
 }
 .hero {
   padding: 28px 32px;
