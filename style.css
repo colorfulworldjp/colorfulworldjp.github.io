@@ -1,26 +1,27 @@
 body {
   font-family: Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
   line-height: 1.8;
-  color: #222;
-  background-color: #f9f9f7;
+  color: #1f2937;
+  background: linear-gradient(to bottom, #f8fafc 0%, #f5f1ea 100%);
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 36px;
   margin-bottom: 10px;
-  color: #111;
+  color: #111827;
+  letter-spacing: 0.3px;
 }
 
 h2 {
   font-size: 22px;
-  margin-top: 35px;
-  margin-bottom: 10px;
-  color: #333;
-  border-left: 4px solid #999;
-  padding-left: 10px;
+  margin-top: 34px;
+  margin-bottom: 12px;
+  color: #1f2937;
+  border-left: 5px solid #b08d57;
+  padding-left: 12px;
 }
 
 p {
@@ -28,7 +29,7 @@ p {
 }
 
 ul {
-  padding-left: 20px;
+  padding-left: 22px;
 }
 
 li {
@@ -37,64 +38,54 @@ li {
 
 hr {
   border: none;
-  border-top: 1px solid #ccc;
-  margin: 30px 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 32px 0;
 }
 
 a {
-  color: #1a4f8b;
+  color: #8b6b3f;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.footer {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
-  font-size: 14px;
-  color: #555;
-}
-
-.highlight {
-  font-weight: bold;
-  color: #111;
-}
 .nav {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 30px;
   padding: 14px 0 18px 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .nav a {
   display: inline-block;
-  padding: 8px 14px;
-  border: 1px solid #bbb;
+  padding: 9px 16px;
+  border: 1px solid #d6c3a2;
   border-radius: 999px;
-  background: #fff;
-  color: #1a4f8b;
+  background: rgba(255, 255, 255, 0.9);
+  color: #6f5430;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   transition: all 0.2s ease;
 }
 
 .nav a:hover {
-  background: #f0f6ff;
-  border-color: #1a4f8b;
+  background: #fff8ee;
+  border-color: #b08d57;
+  text-decoration: none;
 }
+
 .hero {
-  padding: 32px 36px;
-  background: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 14px;
-  margin-bottom: 34px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  padding: 38px 40px;
+  background: linear-gradient(135deg, #ffffff 0%, #faf6ef 100%);
+  border: 1px solid #eadfce;
+  border-radius: 18px;
+  margin-bottom: 36px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .hero h1 {
@@ -108,29 +99,51 @@ a:hover {
 
 .hero-subtitle {
   font-size: 18px;
-  color: #444;
+  color: #4b5563;
 }
 
 .button-link {
   display: inline-block;
-  margin-top: 14px;
+  margin-top: 16px;
   margin-right: 12px;
-  padding: 10px 16px;
-  border: 1px solid #1a4f8b;
-  border-radius: 8px;
-  color: #1a4f8b;
+  padding: 11px 18px;
+  border: 1px solid #b08d57;
+  border-radius: 999px;
+  color: #6f5430;
   text-decoration: none;
-  font-weight: bold;
-  background: #fff;
+  font-weight: 700;
+  background: #fffaf2;
+  transition: all 0.2s ease;
 }
 
 .button-link:hover {
-  background: #f0f6ff;
+  background: #f6ead8;
+  text-decoration: none;
 }
+
+.section-card {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid #ebe5da;
+  border-radius: 16px;
+  padding: 24px 24px 28px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+}
+
+.footer {
+  margin-top: 44px;
+  padding-top: 22px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.highlight {
+  font-weight: 700;
+  color: #111827;
+}
+
 a[target="_blank"]::after {
   content: " ↗";
   font-size: 0.9em;
-}
-mailto-link {
-  font-weight: bold;
 }
