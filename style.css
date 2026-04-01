@@ -233,20 +233,71 @@ a[target="_blank"]::after {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 20px 14px 40px;
+  }
+
+  .nav {
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0 14px 0;
+  }
+
+  .nav a {
+    padding: 7px 12px;
+    font-size: 14px;
+    border-radius: 999px;
+  }
+
   .hero-banner {
-    min-height: 320px;
+    min-height: 0;
     border-radius: 16px;
+    margin-bottom: 24px;
   }
 
   .hero-overlay {
-    padding: 26px 22px;
+    padding: 22px 18px 24px;
   }
 
   .hero-banner h1 {
-    font-size: 28px;
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 10px;
   }
 
   .hero-banner .hero-subtitle {
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .brand-mark {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .hero-actions {
+    margin-top: 16px;
+  }
+
+  .hero-banner .button-link {
+    padding: 8px 14px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 8px;
+  }
+
+  .section-card {
+    padding: 18px 16px 20px;
+    border-radius: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 24px;
   }
 }
