@@ -111,3 +111,7 @@ a:hover {
 .button-link:hover {
   background: #f0f6ff;
 }
+a[target="_blank"]::after {
+  content: " ↗";
+  font-size: 0.9em;
+}
