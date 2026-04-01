@@ -131,3 +131,6 @@ a[target="_blank"]::after {
   content: " ↗";
   font-size: 0.9em;
 }
+mailto-link {
+  font-weight: bold;
+}
